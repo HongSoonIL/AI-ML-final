@@ -1,0 +1,13 @@
+================================================================================
+Training Dataset Statistics
+================================================================================
+
+Total videos: 1
+Total frames: 635
+Input dimension: 99
+Output dimension: 99
+Number of keypoints: 33
+
+
+Video 1: 추억의_인기가요!_역주행_챌린지_#파파야
+  Number of frames: 635
