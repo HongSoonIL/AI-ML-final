@@ -1,5 +1,3 @@
-# scripts/download_and_extract.py
-
 import os
 import sys
 import cv2
@@ -26,6 +24,12 @@ pose_model = mp_pose.Pose(
     min_detection_confidence=0.5,
     min_tracking_confidence=0.5
 )
+
+# --- [설정] 프레임 샘플링 레이트 ---
+# 1 = 모든 프레임 처리 (기본값)
+# 2 = 2프레임당 1번 추출 (데이터 줄이기 용도)
+FRAME_SAMPLING_RATE = 1 
+print(f"⚙️ 프레임 샘플링 설정: {FRAME_SAMPLING_RATE} (1=All Frames)")
 
 def download_youtube(url):
     yt = YouTube(url)
