@@ -143,7 +143,7 @@ def analyze_height_correction():
         print(f"    All keypoints Y: min={target_y.min():.4f}, max={target_y.max():.4f}")
         print(f"    Negative height frames: {np.sum(target_y < 0)} / {target_y.size} ({100*np.sum(target_y < 0)/target_y.size:.2f}%)")
         
-        # Visualize height distribution comparison
+        # 시각화: 높이 분포 비교
         visualize_height_distribution(raw_y, target_y, video_name)
 
 
@@ -168,7 +168,7 @@ def visualize_height_distribution(raw_y, target_y, video_name):
     axes[0, 0].legend()
     axes[0, 0].grid(alpha=0.3)
     
-    # 2. Foot height time series
+    # 2. 발 높이 시계열
     LEFT_FOOT = 31
     RIGHT_FOOT = 32
     frames = np.arange(len(raw_y))
@@ -184,14 +184,14 @@ def visualize_height_distribution(raw_y, target_y, video_name):
     axes[0, 1].legend()
     axes[0, 1].grid(alpha=0.3)
     
-    # 3. Box plot
+    # 3. 박스 플롯
     axes[1, 0].boxplot([raw_y.flatten(), target_y.flatten()], 
                        labels=['Input (Raw)', 'Target (Corrected)'])
     axes[1, 0].set_ylabel('Height (Y coordinate)')
     axes[1, 0].set_title('Height Distribution Box Plot')
     axes[1, 0].grid(alpha=0.3)
     
-    # 4. Negative height ratio comparison
+    # 4. 음수 높이 비율 비교
     raw_negative = np.sum(raw_y < 0) / raw_y.size * 100
     target_negative = np.sum(target_y < 0) / target_y.size * 100
     
@@ -202,13 +202,13 @@ def visualize_height_distribution(raw_y, target_y, video_name):
     axes[1, 1].set_title('Ground Penetration Issue Improvement')
     axes[1, 1].grid(alpha=0.3)
     
-    # Display values
+    # 값 표시
     for i, v in enumerate([raw_negative, target_negative]):
         axes[1, 1].text(i, v + 1, f'{v:.2f}%', ha='center', va='bottom', fontweight='bold')
     
     plt.tight_layout()
     
-    # Save
+    # 저장
     output_path = os.path.join(OUTPUT_DIR, f"{video_name}_height_analysis.png")
     plt.savefig(output_path, dpi=150, bbox_inches='tight')
     print(f"    Visualization saved: {output_path}")
