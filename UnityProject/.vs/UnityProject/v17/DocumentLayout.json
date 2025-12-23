@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\AI_ML_UnityProject_final\\AI_ML_Unity_Final\\UnityProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AI_ML_UnityProject_final\\AI_ML_Unity_Final\\UnityProject\\Assets\\Scripts\\ExtractingEditor\\BlazeDataExtraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ExtractingEditor\\BlazeDataExtraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AI_ML_UnityProject_final\\AI_ML_Unity_Final\\UnityProject\\Assets\\MusicConroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MusicConroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlazeDataExtraction.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AI_ML_UnityProject_final\\AI_ML_Unity_Final\\UnityProject\\Assets\\Scripts\\ExtractingEditor\\BlazeDataExtraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExtractingEditor\\BlazeDataExtraction.cs",
+              "ToolTip": "C:\\Users\\user\\AI_ML_UnityProject_final\\AI_ML_Unity_Final\\UnityProject\\Assets\\Scripts\\ExtractingEditor\\BlazeDataExtraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExtractingEditor\\BlazeDataExtraction.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:31:10.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusicConroller.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AI_ML_UnityProject_final\\AI_ML_Unity_Final\\UnityProject\\Assets\\MusicConroller.cs",
+              "RelativeDocumentMoniker": "Assets\\MusicConroller.cs",
+              "ToolTip": "C:\\Users\\user\\AI_ML_UnityProject_final\\AI_ML_Unity_Final\\UnityProject\\Assets\\MusicConroller.cs",
+              "RelativeToolTip": "Assets\\MusicConroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T09:20:12.391Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

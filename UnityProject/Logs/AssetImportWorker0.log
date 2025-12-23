@@ -1,0 +1,1772 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.10f1 (d3d30d158480) revision 13882125'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ko' Physical Memory: 32046 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2025-12-23T08:46:51.7560986Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-23T08:46:51Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/AI_ML_UnityProject_final/AI_ML_Unity_Final/UnityProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57043
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/user/AI_ML_UnityProject_final/AI_ML_Unity_Final/UnityProject
+C:/Users/user/AI_ML_UnityProject_final/AI_ML_Unity_Final/UnityProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30308]  Target information:
+
+Player connection [30308]  * "[IP] 172.30.1.79 [Port] 0 [Flags] 2 [Guid] 4089983986 [EditorId] 4089983986 [Version] 1048832 [Id] WindowsEditor(7,SI-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30308] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30308] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 31544, path: "C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              adf512cc689842a78146b564c7f8c8ae
+  Correlation Id:          84fa6276fcc6a0acfb198df7cd42ecdf
+  External correlation Id: 1154156104389336081
+  Machine Id:              W3ZVsm54O0tvnr7ilooHglANW5g=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-notifications" at "2025-12-23T08:46:51.8687813Z"
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 148.74 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.10f1 (d3d30d158480)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/AI_ML_UnityProject_final/AI_ML_Unity_Final/UnityProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7688
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.345294 seconds.
+- Loaded All Assemblies, in 12.660 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.367 seconds
+Domain Reload Profiling: 13024ms
+	BeginReloadAssembly (10135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (562ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (396ms)
+	LoadAllAssembliesAndSetupDomain (1550ms)
+		LoadAssemblies (10138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1540ms)
+			TypeCache.Refresh (1538ms)
+				TypeCache.ScanAssembly (1184ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568989599304-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.722 seconds
+Refreshing native plugins compatible for Editor in 26.92 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 3320ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (2410ms)
+		LoadAssemblies (1960ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (556ms)
+			TypeCache.Refresh (516ms)
+				TypeCache.ScanAssembly (504ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 63.38 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4034 unused Assets / (1.7 MB). Loaded Objects now: 4322.
+Memory consumption went from 85.7 MB to 83.9 MB.
+Total: 8.477700 ms (FindLiveObjects: 0.446800 ms CreateObjectMapping: 0.346700 ms MarkObjects: 6.090500 ms  DeleteObjects: 1.592300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 388805.653975 seconds.
+  path: Assets/Prefabs/BonePairingManager.prefab
+  artifactKey: Guid(2048ef0541f26584cb8f0cff31d4cb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BonePairingManager.prefab using Guid(2048ef0541f26584cb8f0cff31d4cb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f3ccea690ae9808e41a4eeb1bb6ffc') in 0.0506464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 207
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.500 seconds
+Refreshing native plugins compatible for Editor in 23.23 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 1000ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (415ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 53.23 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4035 unused Assets / (1.6 MB). Loaded Objects now: 4328.
+Memory consumption went from 86.5 MB to 84.8 MB.
+Total: 8.601500 ms (FindLiveObjects: 1.632100 ms CreateObjectMapping: 0.499600 ms MarkObjects: 4.947200 ms  DeleteObjects: 1.520700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1407.100713 seconds.
+  path: Assets/Ch03_1001_Diffuse.png
+  artifactKey: Guid(d033546e3c66fff42a39d88779e70a64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ch03_1001_Diffuse.png using Guid(d033546e3c66fff42a39d88779e70a64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b5093e35422e3874055a01da20c39a4') in 0.1283669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/stage/textures/王者风范022.jpeg
+  artifactKey: Guid(f0d23a8ad25fe454da6d5eab48a9838b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范022.jpeg using Guid(f0d23a8ad25fe454da6d5eab48a9838b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4403e0239053785baf89a5946e7ac69a') in 0.0100562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/stage/textures/王者风范024.jpeg
+  artifactKey: Guid(fff7bf7b8e4c6bd4ea82f27fd57bda7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范024.jpeg using Guid(fff7bf7b8e4c6bd4ea82f27fd57bda7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '685e6b659953c53fd22e83bd945aa999') in 0.0099871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scripts/ExtractingEditor/BlazePoseSkeletonBuilder.cs
+  artifactKey: Guid(0eeb1451095266b548092acaea9edccc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ExtractingEditor/BlazePoseSkeletonBuilder.cs using Guid(0eeb1451095266b548092acaea9edccc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54d26e931b51fcbc8505c0b3a6ad4006') in 0.0094123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scripts/RetargetingEditor/BoneNodeController.cs
+  artifactKey: Guid(ad9081ee2072d244d984c1f113443382) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/BoneNodeController.cs using Guid(ad9081ee2072d244d984c1f113443382) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d11583111614026af5e8c38965e45a7') in 0.0033278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ch03_nonPBR@T-Pose.fbx
+  artifactKey: Guid(9baeba9b9ea4f014abf6060d6109da45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ch03_nonPBR@T-Pose.fbx using Guid(9baeba9b9ea4f014abf6060d6109da45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d556b19522fed3eca663351ee7889ab') in 0.0879065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/ybot_DAFNet.prefab
+  artifactKey: Guid(0bc0c81f0f153804eaee7300910cddb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Character/ybot_DAFNet.prefab using Guid(0bc0c81f0f153804eaee7300910cddb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3db723bcb4f46ef0ff115ee13b917b51') in 0.0232694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/stage/textures/王者风范035.jpeg
+  artifactKey: Guid(469d82696491e6847834ff037bb61ca7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范035.jpeg using Guid(469d82696491e6847834ff037bb61ca7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1206bd45624af12c4c6591fcf38811e') in 0.0175335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/stage/textures/王者风范029.jpeg
+  artifactKey: Guid(a3997a3e1b9a0a941b1a1a005721216f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范029.jpeg using Guid(a3997a3e1b9a0a941b1a1a005721216f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7f2c7e2fcedeb70f90af98702a87917') in 0.0086878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Data/studio.mat
+  artifactKey: Guid(e9d1692dd5a1919a2a10c094433444a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Data/studio.mat using Guid(e9d1692dd5a1919a2a10c094433444a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ccb4ddb84a79c68e64bbfe76ff996c8') in 0.0097345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scripts/MotionDataFile/MotionDataFile.cs
+  artifactKey: Guid(1a841b85fe2a90543aba61a5bb78e031) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/MotionDataFile/MotionDataFile.cs using Guid(1a841b85fe2a90543aba61a5bb78e031) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aea87932972610fb56f746f44c30dd6e') in 0.0031517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scripts/Core/ActorClass/Utility.cs
+  artifactKey: Guid(d11e69e77a185b7459db13815a844339) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Core/ActorClass/Utility.cs using Guid(d11e69e77a185b7459db13815a844339) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a5ddea23f488fb00427d2e3721c49bf') in 0.0032268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/joint_root.prefab
+  artifactKey: Guid(d4b8329eec9033444b0d4ca55879a845) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/joint_root.prefab using Guid(d4b8329eec9033444b0d4ca55879a845) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbe6dba2182dd98d1be3c09fb90c5ce5') in 0.0059063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/BoneNode.prefab
+  artifactKey: Guid(760c114a0c3f1124ca89a5d128789eda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/BoneNode.prefab using Guid(760c114a0c3f1124ca89a5d128789eda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd145fdaca0daaa974f40427b93bac87b') in 0.044297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/stage/textures/王者风范036.jpeg
+  artifactKey: Guid(31a2e9852216dcb4c92fa024687bbc79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范036.jpeg using Guid(31a2e9852216dcb4c92fa024687bbc79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a379b35361c1a39a150a7775e219f690') in 0.0075017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/BonePairingManager.prefab
+  artifactKey: Guid(2048ef0541f26584cb8f0cff31d4cb24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/BonePairingManager.prefab using Guid(2048ef0541f26584cb8f0cff31d4cb24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2f3c90fc8163e5731b0ae095ce68e36') in 0.0320193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 207
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/stage/textures/王者风范028.jpeg
+  artifactKey: Guid(9b418c34b9527e54d89715c2239eefc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范028.jpeg using Guid(9b418c34b9527e54d89715c2239eefc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3149d183e03d133b9d63d1f0379ea9f5') in 0.008104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/RetargetingEditor/BoneNode.prefab
+  artifactKey: Guid(59c5b563a31107647a395630020beeb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/BoneNode.prefab using Guid(59c5b563a31107647a395630020beeb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '445ffa5cc8aac9a328ed2cd4b24bdebc') in 0.0126189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/stage/textures/王者风范019.jpeg
+  artifactKey: Guid(30260e53541b41d42879a36457c91188) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范019.jpeg using Guid(30260e53541b41d42879a36457c91188) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '399ed16962208afe6dcfd6356766415e') in 0.009816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/RetargetingEditor/MW_RETARGET_Utils.cs
+  artifactKey: Guid(a6796ffb0b65e4047acd3b634ee6abe1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/MW_RETARGET_Utils.cs using Guid(a6796ffb0b65e4047acd3b634ee6abe1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f1939eb86b38eb1bf20e9d3b0a3d06f') in 0.0048098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/stage/textures/王者风范033.jpeg
+  artifactKey: Guid(f1977ae846e0b8b4d9a1251604c18ec5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范033.jpeg using Guid(f1977ae846e0b8b4d9a1251604c18ec5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0124a59f69427a651d3fef19d891074') in 0.0071766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/stage/source/carneval stage.fbx
+  artifactKey: Guid(f9882e7e341838d4e935ad1dd8c2cfea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/source/carneval stage.fbx using Guid(f9882e7e341838d4e935ad1dd8c2cfea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b8bcd730def1441eb07975cc29007e6') in 0.803003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2840
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_dae.dll
+  artifactKey: Guid(f87d56b5a75c7184ea02ac17bb4168b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_dae.dll using Guid(f87d56b5a75c7184ea02ac17bb4168b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '542d9498d7362a63a0d7bf89f2895f06') in 0.0079998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/stage/textures/王者风范031.jpeg
+  artifactKey: Guid(77e2ccfd6ff3bb641ba435eddfce9503) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范031.jpeg using Guid(77e2ccfd6ff3bb641ba435eddfce9503) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dda74e574f3003f41ca96fffd83356cf') in 0.0102774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/blaze_pose_actor.prefab
+  artifactKey: Guid(6fec8767bd74767a7abf6b4fb8f81c34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Character/blaze_pose_actor.prefab using Guid(6fec8767bd74767a7abf6b4fb8f81c34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80a2ca5dc8b00edb77403ef4bf086eee') in 0.0083226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Sensors/JointContactMap.cs
+  artifactKey: Guid(f324131bab3f3c445813e4e4d8a17e72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Sensors/JointContactMap.cs using Guid(f324131bab3f3c445813e4e4d8a17e72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32f9c10740446e32d0fd98b9d1bce1a6') in 0.0047289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Core/ActorClass/UltiDraw/Demo/SkeletonDemo.cs
+  artifactKey: Guid(8572ccc67125a485bb15c8ccc010fc66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Core/ActorClass/UltiDraw/Demo/SkeletonDemo.cs using Guid(8572ccc67125a485bb15c8ccc010fc66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3ae6991ff14b11c6e7029123cb13c9b') in 0.004735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/stage/textures/王者风范001.png
+  artifactKey: Guid(019a98816403969459e685284f3e1a94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范001.png using Guid(019a98816403969459e685284f3e1a94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09c7cacc0f2cf18f0833368144734ebd') in 0.0102628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_daed.dll
+  artifactKey: Guid(ca35480ba3561f7438b9d2276c5d1096) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_daed.dll using Guid(ca35480ba3561f7438b9d2276c5d1096) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f385efd165ad62f807a16daa1a78ddb') in 0.0042007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/lapack/bin/liblapack.dll
+  artifactKey: Guid(7950ce6c3bfae194a8779a2fe5dfdd8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/lapack/bin/liblapack.dll using Guid(7950ce6c3bfae194a8779a2fe5dfdd8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89acd917eea6e31b0badb949da6bbdaa') in 0.0051699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_lwod.dll
+  artifactKey: Guid(7e592fa6dc90dae4ca882541cd644bec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_lwod.dll using Guid(7e592fa6dc90dae4ca882541cd644bec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6917290cc99dbb510af793c18428f471') in 0.0044456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_curld.dll
+  artifactKey: Guid(a06ff994482ac824880f0b41476f3760) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_curld.dll using Guid(a06ff994482ac824880f0b41476f3760) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45b76ea12869573faab0b5091df6aa82') in 0.0044259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_dxfd.dll
+  artifactKey: Guid(0db75054d23f97544bcf67a3aff044ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_dxfd.dll using Guid(0db75054d23f97544bcf67a3aff044ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '998af21b2328822f16cdd93349e1a0d0') in 0.0057706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/Core/ActorClass/UltiDraw/Demo/UltiDrawSettings.lighting
+  artifactKey: Guid(0d82c47ea3536f4499aefc4f48a81580) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Core/ActorClass/UltiDraw/Demo/UltiDrawSettings.lighting using Guid(0d82c47ea3536f4499aefc4f48a81580) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '075252829b24b5a297cf60fc2941dcc6') in 0.0139257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_hdrd.dll
+  artifactKey: Guid(28ed9cac9a0b85d4a862120b568da398) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_hdrd.dll using Guid(28ed9cac9a0b85d4a862120b568da398) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '911898c42ea10feb09a55c85d9eea6a2') in 0.0059614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/lapack/bin/libblas.dll
+  artifactKey: Guid(030a75bb33cc5974b9abd10161a45834) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/lapack/bin/libblas.dll using Guid(030a75bb33cc5974b9abd10161a45834) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddf2126fe07d641bfc1f31ba6197ca09') in 0.0043395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Scripts/CPUVoxelizer.cs
+  artifactKey: Guid(94873d8d1f5f6674f9eeca86f7fc98ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Scripts/CPUVoxelizer.cs using Guid(94873d8d1f5f6674f9eeca86f7fc98ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4dfd9944b821d7bffb69595b2e421f0e') in 0.0039549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_3dc.dll
+  artifactKey: Guid(19776b320877bc744be3c563059bfa6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_3dc.dll using Guid(19776b320877bc744be3c563059bfa6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f013af18338caddb2d20eba79a49682c') in 0.0047502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_bspd.dll
+  artifactKey: Guid(8bba3b22f32d3814b8b627be7077a58c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_bspd.dll using Guid(8bba3b22f32d3814b8b627be7077a58c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dce9a64110c936674e798cbc636f8f1') in 0.004355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Shaders/Voxelizer.compute
+  artifactKey: Guid(5fdfd9c0be0cd42fca24f981cc152dd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Shaders/Voxelizer.compute using Guid(5fdfd9c0be0cd42fca24f981cc152dd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecd4a5ba31679af942829cbe88a0ae96') in 0.0044023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/stage/textures/王者风范009.jpeg
+  artifactKey: Guid(fee0cba42df6c1f44b8f36bf4f934611) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范009.jpeg using Guid(fee0cba42df6c1f44b8f36bf4f934611) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c0aaaf1a9596015e55d6d983f7231b0') in 0.0103567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/lapack/bin/lapack_win32_MTd.dll
+  artifactKey: Guid(c21ff1c8ee84124478e6069259c1032e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/lapack/bin/lapack_win32_MTd.dll using Guid(c21ff1c8ee84124478e6069259c1032e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd5886719f55a39287f1918414a92abf') in 0.0059103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/Retargeting_BVH.py
+  artifactKey: Guid(a1d67db3e1841ec4ca916cca0af57dcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/Retargeting_BVH.py using Guid(a1d67db3e1841ec4ca916cca0af57dcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2181d526dbb512df5f4acee88a46c899') in 0.0033591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ch03_1001_Specular.png
+  artifactKey: Guid(6d25f1713f82931488ac46dd843a8f70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ch03_1001_Specular.png using Guid(6d25f1713f82931488ac46dd843a8f70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4abe3114adf4ee2a15363a63c11286d5') in 0.0116485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_mdld.dll
+  artifactKey: Guid(5642b10c3c1d0184b8ad91d0cf302d7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_mdld.dll using Guid(5642b10c3c1d0184b8ad91d0cf302d7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee54334a60b7f9cf7122b65edef0c9a2') in 0.003696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/Core/ActorClass/UltiDraw/ReadMe.txt
+  artifactKey: Guid(d83376fe5f90f4abab32194908aa01bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Core/ActorClass/UltiDraw/ReadMe.txt using Guid(d83376fe5f90f4abab32194908aa01bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c641f88fa04c8b261857cccf386f70fe') in 0.0047209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/stage/textures/王者风范054.jpeg
+  artifactKey: Guid(aaebf9fe33fade84d8152b87f15a5d32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/stage/textures/王者风范054.jpeg using Guid(aaebf9fe33fade84d8152b87f15a5d32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5a5807914c524e791596c633665ae6a') in 0.0101544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Scripts/Voxel.cs
+  artifactKey: Guid(ed8564a4ee29d1746944c53dab0406d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Scripts/Voxel.cs using Guid(ed8564a4ee29d1746944c53dab0406d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea252c55765a528ce3c1872bb14cc86b') in 0.0040684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081465 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_objd.dll
+  artifactKey: Guid(6e3cef5e5b08c5f488a7071c5cc7823e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_objd.dll using Guid(6e3cef5e5b08c5f488a7071c5cc7823e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a64b96b689fdf5819138071afcd0e7f') in 0.0035192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_rgb.dll
+  artifactKey: Guid(0052c3c7ecabace4ca439fd233b10e6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_rgb.dll using Guid(0052c3c7ecabace4ca439fd233b10e6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '378390ab8f9e3c5fbc953b89732f1439') in 0.003917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_revisions.dll
+  artifactKey: Guid(91c139ca664bfa144ac49f09cb0c866c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_revisions.dll using Guid(91c139ca664bfa144ac49f09cb0c866c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99f2f283459e409121ed6dd165687cbf') in 0.0042048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgshadow.dll
+  artifactKey: Guid(a26a98a160e4d3f409578598c2ba7fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgshadow.dll using Guid(a26a98a160e4d3f409578598c2ba7fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6078131020de46b064a894163d40f820') in 0.0058828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pov.dll
+  artifactKey: Guid(83511e4b98ace094bb4df67ca07516cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pov.dll using Guid(83511e4b98ace094bb4df67ca07516cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bccb9e37b733a3813f41088c9022b060') in 0.0037531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgparticled.dll
+  artifactKey: Guid(592e45edf153ba841ba2ea3882bda8e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgparticled.dll using Guid(592e45edf153ba841ba2ea3882bda8e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3127d17ce5d97ca3bfd0753010fa6b8f') in 0.0046371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osg.dll
+  artifactKey: Guid(64d0658c00c0fe646bf215c1089813de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osg.dll using Guid(64d0658c00c0fe646bf215c1089813de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b17c652b6e0c6af50e729e4d090516d') in 0.0041133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_png.dll
+  artifactKey: Guid(9072da7a34420b34db6af4b3c79a4c0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_png.dll using Guid(9072da7a34420b34db6af4b3c79a4c0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea7a42fa7b8562c22ffd1eeeb80bf9a1') in 0.0039618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osganimation.dll
+  artifactKey: Guid(e511924c7c2e0bc4d9ec2f0d23ac14b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osganimation.dll using Guid(e511924c7c2e0bc4d9ec2f0d23ac14b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfccb7585040eed051cfaff0e24d275b') in 0.0041356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osguid.dll
+  artifactKey: Guid(15aa1bf3d3b7db34291847e1bddd8831) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osguid.dll using Guid(15aa1bf3d3b7db34291847e1bddd8831) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04538b2bd3fabc4eb8e66b66f982f702') in 0.0037868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgshadowd.dll
+  artifactKey: Guid(783311d0a578d354aaa40b42cf0d1da2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgshadowd.dll using Guid(783311d0a578d354aaa40b42cf0d1da2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1adb0b5e4a2a13cc51ba1af8d76275eb') in 0.003966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgad.dll
+  artifactKey: Guid(04d8d5f7bbae9564a85428fb3dcea480) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgad.dll using Guid(04d8d5f7bbae9564a85428fb3dcea480) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3002662db613547c4d798fb2ce440a29') in 0.0041641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgui.dll
+  artifactKey: Guid(4340116d40b72914c876cb3d72def7a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgui.dll using Guid(4340116d40b72914c876cb3d72def7a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23d089001c21a8b5650c1ff6a64c493f') in 0.0041918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pnmd.dll
+  artifactKey: Guid(3d136ffe5d160f24488c4727814d116e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pnmd.dll using Guid(3d136ffe5d160f24488c4727814d116e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ddd19ba825b9c7abb7b41e026081cde') in 0.0037272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgjsd.dll
+  artifactKey: Guid(78dd1511c76beb04790ab52be6d5d7da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgjsd.dll using Guid(78dd1511c76beb04790ab52be6d5d7da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf6350d37d61f1f83cf231bec5c5589a') in 0.0047696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osc.dll
+  artifactKey: Guid(ffc98b9cdd4ae1749b49135d7863a5c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osc.dll using Guid(ffc98b9cdd4ae1749b49135d7863a5c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '235c0078af7b6742fc22be21c0875426') in 0.004133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osga.dll
+  artifactKey: Guid(feb519734d7123a49947255db6488fab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osga.dll using Guid(feb519734d7123a49947255db6488fab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd1ec1a5cea6bff2d7bf90e0cbeb47e1') in 0.0046457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osggad.dll
+  artifactKey: Guid(4cc5eabd86494af40b8b4f621a95a583) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osggad.dll using Guid(4cc5eabd86494af40b8b4f621a95a583) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62c8664a2bc3e61e2bacde06096a043d') in 0.0051829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_tfd.dll
+  artifactKey: Guid(c8179ceb46bca0f4eba41c4650a943f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_tfd.dll using Guid(c8179ceb46bca0f4eba41c4650a943f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e372dffec55df8d01bf4c7eca62a5e84') in 0.0039986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_tga.dll
+  artifactKey: Guid(a7fa76ce30391e6438e2ce29c2a275bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_tga.dll using Guid(a7fa76ce30391e6438e2ce29c2a275bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f11ba9887306744d96edf576ee5d0be') in 0.0040226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_ply.dll
+  artifactKey: Guid(c09225debd44b714ab54ecb1dc3b28db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_ply.dll using Guid(c09225debd44b714ab54ecb1dc3b28db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bddcb00cfd7dceab181bdd6b3ff86571') in 0.0037403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_shp.dll
+  artifactKey: Guid(6cdd1e050ccac08409800c24e168c558) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_shp.dll using Guid(6cdd1e050ccac08409800c24e168c558) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '974b5f92894f2971b0663e92bcca0039') in 0.0036416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgviewerd.dll
+  artifactKey: Guid(2b2ae06f7dead854e83a4b03ec83b9a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgviewerd.dll using Guid(2b2ae06f7dead854e83a4b03ec83b9a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec5b4e30d9f4112631c61437b8a7e5bd') in 0.0042661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgutild.dll
+  artifactKey: Guid(e10fcbbef23a2ee4a9e0a89cf8cf0f97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgutild.dll using Guid(e10fcbbef23a2ee4a9e0a89cf8cf0f97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a67be48f85ec7f937f7b3c78fc3b9967') in 0.0053201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgterrain.dll
+  artifactKey: Guid(a2c6721ef9b0adc4c9bedf40352ed2e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgterrain.dll using Guid(a2c6721ef9b0adc4c9bedf40352ed2e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '018018e2135c5d6188bb0493ebb16885') in 0.0044412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgshadowd.dll
+  artifactKey: Guid(75aa4738bb261bd4dbdc00315c138fbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgshadowd.dll using Guid(75aa4738bb261bd4dbdc00315c138fbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b382a6b18504044a1a21e7905d71562') in 0.0037115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pngd.dll
+  artifactKey: Guid(14f454139f2e3d148b9a82b4de72924a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pngd.dll using Guid(14f454139f2e3d148b9a82b4de72924a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e553cbeb54324f3539cd0fbaf381571') in 0.0046477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_tgz.dll
+  artifactKey: Guid(1894ccba7ae193e4299b1e51eea64cbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_tgz.dll using Guid(1894ccba7ae193e4299b1e51eea64cbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78de1dc28040e6bba0e1b20b10531d8f') in 0.0046808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_txpd.dll
+  artifactKey: Guid(41973b58bc305604496e9e577c20b698) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_txpd.dll using Guid(41973b58bc305604496e9e577c20b698) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e6434c7c339d9928d14b74ba3473307') in 0.0039632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_rot.dll
+  artifactKey: Guid(df6a419e6f5930c4aabbf6e317bfe035) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_rot.dll using Guid(df6a419e6f5930c4aabbf6e317bfe035) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce9489321c2a1401f716e5d1bf481a34') in 0.0038442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pvrd.dll
+  artifactKey: Guid(22cc3b54dad9a084e86ccf472941b47d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pvrd.dll using Guid(22cc3b54dad9a084e86ccf472941b47d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10c6767c4df0751039ed7d018fef2b1c') in 0.0283709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_oscd.dll
+  artifactKey: Guid(b8a33f235a852f446b644374dad8a592) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_oscd.dll using Guid(b8a33f235a852f446b644374dad8a592) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c7f0744873dc76993ee88693c9d69ed') in 0.0036842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_txfd.dll
+  artifactKey: Guid(05becf4867400604289d09d484143a97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_txfd.dll using Guid(05becf4867400604289d09d484143a97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9e0968381743c7c00ed3701c8af797d') in 0.0049193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_transd.dll
+  artifactKey: Guid(0b84bedec36986a4688511b006ac09cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_transd.dll using Guid(0b84bedec36986a4688511b006ac09cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f699ddf8ea464ddfe2a616c24ed329be') in 0.0060273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_stld.dll
+  artifactKey: Guid(894bde3b3ce976240b05329071c0bb4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_stld.dll using Guid(894bde3b3ce976240b05329071c0bb4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac6872db9a367d5ded87abfd55298ce1') in 0.0040734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgtext.dll
+  artifactKey: Guid(1e358cc361cecce43aa144fbf725373d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgtext.dll using Guid(1e358cc361cecce43aa144fbf725373d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a56858717064247a57825d69ccbcab6') in 0.0039511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pic.dll
+  artifactKey: Guid(7644b65cfd59b6e45801e36feaf7e373) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pic.dll using Guid(7644b65cfd59b6e45801e36feaf7e373) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ebf57a418ce57e4c1b59002a7de3378') in 0.0042171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgviewer.dll
+  artifactKey: Guid(424f306ae07c13941a89c824ab58c3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgviewer.dll using Guid(424f306ae07c13941a89c824ab58c3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd29ed2409a145c3644b49871f06708f') in 0.0036386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgd.dll
+  artifactKey: Guid(b1d4555b935f7484a978565545df2d70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgd.dll using Guid(b1d4555b935f7484a978565545df2d70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4079fc95f83152a6aaa660ad9df1d384') in 0.0040935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_tiff.dll
+  artifactKey: Guid(b179375ddc51fc244b5dd326c31fb734) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_tiff.dll using Guid(b179375ddc51fc244b5dd326c31fb734) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38387e49beb8c43d59c4f6ddfc1e3368') in 0.0044264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osganimationd.dll
+  artifactKey: Guid(4440b7213e7a0d74497f3fe1c605662c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osganimationd.dll using Guid(4440b7213e7a0d74497f3fe1c605662c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '948fe9e022f85adfe729fcd99f02a503') in 0.0039645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgd.dll
+  artifactKey: Guid(809ff68141cce68489115959e46f091e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_serializers_osgd.dll using Guid(809ff68141cce68489115959e46f091e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ad297dab0f18f2ec15631ccd355e4d0') in 0.0040294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_ogr.dll
+  artifactKey: Guid(81309bf14847d184b8260234f0212b4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_ogr.dll using Guid(81309bf14847d184b8260234f0212b4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '177e82041b1980bc30638066ec30907d') in 0.0057203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_stl.dll
+  artifactKey: Guid(a92d25350da660b44a0f7b7321a6dab8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_stl.dll using Guid(a92d25350da660b44a0f7b7321a6dab8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac2d4d814cab49bd3d343016082ceacf') in 0.0037761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_txp.dll
+  artifactKey: Guid(d2d8595a5c500ec4e944c57929502c37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_txp.dll using Guid(d2d8595a5c500ec4e944c57929502c37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77d0969dc10f7313f9ecebbefeaeb10a') in 0.0046418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_ogrd.dll
+  artifactKey: Guid(d3d18db4b779f93419beaf5cf91656c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_ogrd.dll using Guid(d3d18db4b779f93419beaf5cf91656c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c891c4b4ae26448736702f3a7a6e004b') in 0.0041565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgterraind.dll
+  artifactKey: Guid(6b5e1e961bbac6e489dbe1ccc0b791c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgterraind.dll using Guid(6b5e1e961bbac6e489dbe1ccc0b791c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bf1631a40c98deaa228d5f94b5af94b') in 0.0043319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_vtf.dll
+  artifactKey: Guid(b0ab87216f271944ba7d0c35ffbc2857) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_vtf.dll using Guid(b0ab87216f271944ba7d0c35ffbc2857) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a73df73753b62988d948e70d1d392f9') in 0.0042049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pvr.dll
+  artifactKey: Guid(304612a362e685e4da83b88aa4f4499c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_pvr.dll using Guid(304612a362e685e4da83b88aa4f4499c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bf02df7a2a009d98edeb9653f23ab3d') in 0.0041207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_zip.dll
+  artifactKey: Guid(373e08033c6eda649b40437e66c15e97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_zip.dll using Guid(373e08033c6eda649b40437e66c15e97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '556e6e53e015e2b5c2b1f34c87716cc9') in 0.0037012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_xd.dll
+  artifactKey: Guid(11c80f3fba21ca44e968a7de081bc965) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_xd.dll using Guid(11c80f3fba21ca44e968a7de081bc965) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '590612483b9bcf2fecc71927e7e23a53') in 0.0039042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgviewer.dll
+  artifactKey: Guid(994e57e1f308ef143b7b4bfdee8f08a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RetargetingEditor/RetargetingCorePython/vs2015/osgPlugins-3.5.4/osgdb_osgviewer.dll using Guid(994e57e1f308ef143b7b4bfdee8f08a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94ef9cc7b440270882e83e09fc731bdd') in 0.0053903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.231883 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Scripts/GPUDemo.cs
+  artifactKey: Guid(75bbc9035e734498591c590d1124c2ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Scripts/GPUDemo.cs using Guid(75bbc9035e734498591c590d1124c2ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17c5104fe1527ddbc60d1b085e64ffe0') in 0.0310335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Scripts/tools/MeshSaverEditor.cs
+  artifactKey: Guid(a73321222fc024d58bbe7b09a9875c6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Scripts/tools/MeshSaverEditor.cs using Guid(a73321222fc024d58bbe7b09a9875c6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e540ec8c1da47e86d5f2ab73ef83999') in 0.0043332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Shaders/GPUVoxelParticleSystem/Random.cginc
+  artifactKey: Guid(217d6b714e9a56845bf10c0db22b8651) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Shaders/GPUVoxelParticleSystem/Random.cginc using Guid(217d6b714e9a56845bf10c0db22b8651) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec17c5e70e396769043dde6b3fdfa5e0') in 0.0085729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Shaders/GPUVoxelParticleSystem/CuboidLine.shader
+  artifactKey: Guid(11b8878d1c173c8469d6530b77f4676e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Shaders/GPUVoxelParticleSystem/CuboidLine.shader using Guid(11b8878d1c173c8469d6530b77f4676e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9824fca984eb5ec11930ca6c62642430') in 0.0065782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Shaders/GPUVoxelParticleSystem/VParticle.cginc
+  artifactKey: Guid(3e7207f5b0a358d48b0c6f30f9b69bab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Shaders/GPUVoxelParticleSystem/VParticle.cginc using Guid(3e7207f5b0a358d48b0c6f30f9b69bab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e10b0389ba1b5c19edae86a7629f28b') in 0.0042469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Scripts/GPUVoxelParticle.cs
+  artifactKey: Guid(1470373d241cc2c48b9be809466c1a61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Scripts/GPUVoxelParticle.cs using Guid(1470373d241cc2c48b9be809466c1a61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '336089ea9c2bef513ac7bfd5020d53c8') in 0.0035069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Scripts/GPUVoxelParticleSystem.cs
+  artifactKey: Guid(7a70448d82b4fab429413a0efd49da2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Scripts/GPUVoxelParticleSystem.cs using Guid(7a70448d82b4fab429413a0efd49da2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52d1651ec2170912a1cc7df97e2766e8') in 0.0042782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Shaders/GPUVoxelParticleSystem/Noise/SimplexNoiseGrad3D.cginc
+  artifactKey: Guid(a7111eafc2463224faacf7be3bddb9a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataProcessing/Utility/Voxelizer/Demo/Shaders/GPUVoxelParticleSystem/Noise/SimplexNoiseGrad3D.cginc using Guid(a7111eafc2463224faacf7be3bddb9a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f828326c0002dbfdd947a5218393ca86') in 0.0044689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 39.40 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3827 unused Assets / (1.2 MB). Loaded Objects now: 4330.
+Memory consumption went from 87.7 MB to 86.4 MB.
+Total: 10.898800 ms (FindLiveObjects: 0.805500 ms CreateObjectMapping: 0.484300 ms MarkObjects: 8.211600 ms  DeleteObjects: 1.395600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.511 seconds
+Refreshing native plugins compatible for Editor in 22.69 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 1010ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (500ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 43.76 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (2.2 MB). Loaded Objects now: 4331.
+Memory consumption went from 87.6 MB to 85.5 MB.
+Total: 9.135700 ms (FindLiveObjects: 0.753700 ms CreateObjectMapping: 0.669400 ms MarkObjects: 5.692100 ms  DeleteObjects: 2.018400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 535.506643 seconds.
+  path: Assets/MusicConroller.cs
+  artifactKey: Guid(c7a995c36a255ec4480557f75c7df934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MusicConroller.cs using Guid(c7a995c36a255ec4480557f75c7df934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d25d9b60ac4339bb93ca346f268d9f5') in 0.0037389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 25.67 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.507 seconds
+Domain Reload Profiling: 1013ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (508ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 44.44 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.2 MB). Loaded Objects now: 4332.
+Memory consumption went from 87.7 MB to 86.5 MB.
+Total: 6.661800 ms (FindLiveObjects: 1.073200 ms CreateObjectMapping: 0.148400 ms MarkObjects: 4.276600 ms  DeleteObjects: 1.161700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 24.58 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1043ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 42.47 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.2 MB). Loaded Objects now: 4333.
+Memory consumption went from 87.7 MB to 86.5 MB.
+Total: 6.634800 ms (FindLiveObjects: 0.823000 ms CreateObjectMapping: 0.364400 ms MarkObjects: 4.395700 ms  DeleteObjects: 1.049700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 24.47 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.555 seconds
+Domain Reload Profiling: 1040ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 48.47 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.5 MB). Loaded Objects now: 4334.
+Memory consumption went from 87.7 MB to 86.1 MB.
+Total: 7.171400 ms (FindLiveObjects: 0.554600 ms CreateObjectMapping: 0.540000 ms MarkObjects: 4.746300 ms  DeleteObjects: 1.328900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 50.88 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3824 unused Assets / (1.3 MB). Loaded Objects now: 4334.
+Memory consumption went from 86.8 MB to 85.5 MB.
+Total: 16.481200 ms (FindLiveObjects: 1.044400 ms CreateObjectMapping: 0.822700 ms MarkObjects: 13.211200 ms  DeleteObjects: 1.401000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 48.63 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3824 unused Assets / (1.4 MB). Loaded Objects now: 4334.
+Memory consumption went from 86.8 MB to 85.4 MB.
+Total: 8.451600 ms (FindLiveObjects: 0.866300 ms CreateObjectMapping: 0.712500 ms MarkObjects: 5.654500 ms  DeleteObjects: 1.216700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 45.30 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3824 unused Assets / (1.3 MB). Loaded Objects now: 4334.
+Memory consumption went from 86.8 MB to 85.5 MB.
+Total: 10.450800 ms (FindLiveObjects: 1.251500 ms CreateObjectMapping: 0.858500 ms MarkObjects: 6.798600 ms  DeleteObjects: 1.541100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 47.59 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3824 unused Assets / (1.3 MB). Loaded Objects now: 4334.
+Memory consumption went from 86.8 MB to 85.5 MB.
+Total: 8.879000 ms (FindLiveObjects: 0.784100 ms CreateObjectMapping: 0.634200 ms MarkObjects: 5.996400 ms  DeleteObjects: 1.462600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 48.89 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3824 unused Assets / (1.4 MB). Loaded Objects now: 4334.
+Memory consumption went from 86.8 MB to 85.4 MB.
+Total: 8.858000 ms (FindLiveObjects: 1.187200 ms CreateObjectMapping: 0.717900 ms MarkObjects: 5.598200 ms  DeleteObjects: 1.352600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.566 seconds
+Refreshing native plugins compatible for Editor in 23.62 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.522 seconds
+Domain Reload Profiling: 1086ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 49.69 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.6 MB). Loaded Objects now: 4335.
+Memory consumption went from 87.7 MB to 86.1 MB.
+Total: 6.766600 ms (FindLiveObjects: 0.483900 ms CreateObjectMapping: 0.425800 ms MarkObjects: 4.435300 ms  DeleteObjects: 1.419700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 24.74 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.525 seconds
+Domain Reload Profiling: 1008ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (97ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (526ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 44.65 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.7 MB). Loaded Objects now: 4336.
+Memory consumption went from 87.7 MB to 86.0 MB.
+Total: 10.303800 ms (FindLiveObjects: 0.840700 ms CreateObjectMapping: 0.723400 ms MarkObjects: 7.073000 ms  DeleteObjects: 1.665400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 24.60 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 1006ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 50.42 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.6 MB). Loaded Objects now: 4337.
+Memory consumption went from 87.7 MB to 86.1 MB.
+Total: 10.592100 ms (FindLiveObjects: 0.834300 ms CreateObjectMapping: 0.807700 ms MarkObjects: 7.100700 ms  DeleteObjects: 1.847300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.503 seconds
+Refreshing native plugins compatible for Editor in 24.89 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.524 seconds
+Domain Reload Profiling: 1026ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (98ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 44.76 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.5 MB). Loaded Objects now: 4338.
+Memory consumption went from 87.7 MB to 86.2 MB.
+Total: 10.564800 ms (FindLiveObjects: 0.781200 ms CreateObjectMapping: 1.032800 ms MarkObjects: 7.034100 ms  DeleteObjects: 1.714900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.595 seconds
+Refreshing native plugins compatible for Editor in 28.67 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 54.94 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.3 MB). Loaded Objects now: 4339.
+Memory consumption went from 87.7 MB to 86.4 MB.
+Total: 6.779300 ms (FindLiveObjects: 0.636300 ms CreateObjectMapping: 0.434500 ms MarkObjects: 4.557000 ms  DeleteObjects: 1.149400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 23.58 ms, found 206 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.512 seconds
+Domain Reload Profiling: 1004ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 48.66 ms, found 206 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4033 unused Assets / (1.7 MB). Loaded Objects now: 4340.
+Memory consumption went from 87.7 MB to 86.0 MB.
+Total: 10.833300 ms (FindLiveObjects: 0.751900 ms CreateObjectMapping: 0.652000 ms MarkObjects: 7.506900 ms  DeleteObjects: 1.920500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
